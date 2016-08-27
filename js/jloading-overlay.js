@@ -1,5 +1,5 @@
 /////////////////////////////////////////////////////
-///Author: André Leal & Pedro Sombreireiro
+///Author: Andrï¿½ Leal & Pedro Sombreireiro
 /////////////////////////////////////////////////////
 
 
@@ -8,7 +8,12 @@
     var jLoadingOptions;
      $.fn.jLoadingOverlay = function (action, options) {
          jLoadingOptions = options;
-         if (action == '') {
+
+         if (options && options.jLoadingOverlayId){
+          jLoadingOverlayId = options.jLoadingOverlayId;
+         }
+
+         if (action === '') {
 
              var container = $('body');
 
@@ -18,6 +23,7 @@
                      wrapperClass = wrapperClass + ' inner-pane';
                      container = $(this);
                  }
+
              }
 
 
@@ -26,18 +32,17 @@
              $('div#' + jLoadingOverlayId + ' div.loading-overlay').append('<div class="spinner"></div>');
              $('div#' + jLoadingOverlayId).append('<div class="overlay-bg"></div>');
              $('div#' + jLoadingOverlayId + ' div.spinner').append('<div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div>');
-			 
+
 			 if(options && options.backgroundColor){
 				$('div#' + jLoadingOverlayId +' div.overlay-bg').css('background',options.backgroundColor);
 			 }
-			 
-			 
-			 
+
+
+
              $('div#' + jLoadingOverlayId).show();
          }
          else if('close'){
              $('div#' + jLoadingOverlayId).detach();
          }
-     }
+     };
  })(jQuery);
-
