@@ -2,7 +2,7 @@
   "name": "JLoadingOverlay",
   "description": "JQuery plugin to show an animated overlay",
   "license": [
-    "TBD",
+    "TBD"
   ],
   "homepage": "https://github.com/andrejleal/JLoadingOverlay",
   "authors": [
@@ -12,7 +12,7 @@
   "main": [
     "js/jloading-overlay.js",
     "css/jloading-overlay.css",
-    "css/jloading-overlay.less",    
+    "css/jloading-overlay.less"    
   ],
   "keywords": [
     "GitHub",
