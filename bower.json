@@ -1,0 +1,24 @@
+{
+  "name": "JLoadingOverlay",
+  "description": "JQuery plugin to show an animated overlay",
+  "license": [
+    "TBD"
+  ],
+  "homepage": "https://github.com/andrejleal/JLoadingOverlay",
+  "authors": [
+    "André Leal <tbd@tbd.com>",
+    "Pedro Sombreireiro <tbd@tbd.com>"
+  ],
+  "main": [
+    "js/jloading-overlay.js",
+    "css/jloading-overlay.css",
+    "css/jloading-overlay.less"    
+  ],
+  "keywords": [
+    "GitHub",
+    "Overlay"
+  ],
+  "ignore": [
+    "**/.*"
+  ]
+}
