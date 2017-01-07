@@ -6,8 +6,8 @@
   ],
   "homepage": "https://github.com/andrejleal/JLoadingOverlay",
   "authors": [
-    "André Leal <tbd@tbd>",
-    "Pedro Sombreireiro <tbd@tbd>"
+    "André Leal <tbd@tbd.com>",
+    "Pedro Sombreireiro <tbd@tbd.com>"
   ],
   "main": [
     "js/jloading-overlay.js",
